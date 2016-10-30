@@ -128,8 +128,9 @@ nav li a:hover {
   padding: 15px;
 }
 
-#about lead {
-  
+#about p.lead {
+  background-color: #ff5050;
+  padding: 10px;
 }
 
 .weybec-people li {
