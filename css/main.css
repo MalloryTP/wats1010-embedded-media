@@ -4,7 +4,143 @@
  *
  * Site Styles
  *****************************************************************************/
+Body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #dfdce3;
+}
+h1, h2, h3, h4, h5, h6 {
+  font family: Tahoma, Geneva, sans-serif;
+}
 
- html {
-     color: green;
- }
+html {
+  padding: 0;
+}
+
+p.subtitle {
+  margin: 0;
+}
+
+header {
+  min-height: 400px;
+  background-image: url('../img/monkaa_title.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;  
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  margin: 0 0 10px 10px;
+  padding; 0;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+}
+
+nav li a:hover {
+  color: gray;
+}
+ 
+#social {
+  text-align: center;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 25px;
+  background-image: url('../img/monkaa_monkeyhang.png');
+  opacity: 0.9;
+  background-position: center left;
+  background-size: cover;
+  padding: 3px;
+  transition: 2s width;
+}
+#social:hover {
+  width: 130px;
+}
+#social ul {
+  list-style-type: none;
+  padding: 0;
+}
+#social li {
+  margin: 0;
+  padding: 0;
+}
+.download-button {
+  background-color: #00b8e6;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.download-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.download-button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.download-button:hover span {
+  padding-right: 25px;
+}
+
+.download-button: hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#watch {
+  margin: 20px;
+  padding: 15px;
+}
+
+#listen {
+  margin: 20px;
+  padding: 15px;
+}
+
+#about {
+  margin: 20px;
+  padding: 15px;
+}
+
+#about lead {
+  
+}
+
+.weybec-people li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+footer p {
+  background-color: #00b8e6;
+  padding: 10px;
+  text-align: center;
+}
+
